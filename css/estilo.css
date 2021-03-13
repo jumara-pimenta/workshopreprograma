@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1{ 
+    font-size: 62px;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.caixa-header{
+    align-items: center;
+  display: flex;
+  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/Jumara\ Pimenta.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 80vh;
+    position: relative;
+}
+.caixa-header .bg-opacity{
+    background: rgb(119 13 119 / 59%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.conteudo {
+    width: 800px;
+    height: 260px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: -130px;
+    text-align: center;
+}
+
+.conteudo-principal{
+    margin: 0 auto;
+    width: 1024px;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+a.btn-branco {
+    text-decoration: none;
+}
+
+.btn-branco{
+    background-color: white;
+    padding: 15px;
+    width:135px;
+    border-radius: 80px;
+}
+/*===========SEÇAO DE CONTEÚDO============*/
+h2 {
+    font-size: 36px;
+    color: #925692;
+    margin: 50px;
+    margin-left: 40px;
+    height: 10px;
+  }
+  
+  .caixa-secao-conteudo{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .caixa-somente-conteudo{
+    display: flex;
+    margin:10px 40px;
+  }
+  
+  a.btn-roxo {
+    text-decoration: none;
+}
+
+  .btn-roxo {
+    padding: 15px;
+    width: 190px;
+    border-radius: 80px;
+    border: #770d77 1px solid;
+    color: #770d77;
+  }
+  
+  .caixa-texto-sobre-mim{
+    margin-bottom: 50px;
+  }
+  
+  .caixa-sobre-mim{
+  width: 40%;
+  }
+  
+  .caixa-lista-sobre-mim{
+    width: 40%;
+    margin-left: auto;
+  }
+  
+  /*============redes sociais============*/
+  
+  .caixa-item-rede-social{
+    padding: 20px;
+    text-align: center;
+    background-color:#770d77;
+    width: 180px;
+    height: 180px;
+    margin-right: 40px;
+  }
+
+  .linkedin{
+    width: 70px;
+    height: 70px;
+  background-image: url('../img/in.png');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.facebook{
+    width: 70px;
+    height: 70px;
+  background-image: url('../img/facebook.png');
+  background-size: 54%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.github{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/github.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+  .instagram{
+    width: 70px;
+    height: 70px;
+    background-image: url('../img/instagram.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+  }
+  
+  .link-rede-social{
+    color: white;
+  }
+  
+  .caixa-mae-rede-social{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: -40px;
+  }
+  
+  footer{
+    text-align: center;
+    color: #C4C4C4;
+    padding: 30px;
+  }
+  
+  @media only screen and (max-device-width: 1024px) {
+    .conteudo-principal{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .caixa-somente-conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 25px 40px;
+    }
+    .caixa-sobre-mim {
+        width: 100%;
+    }
+    .caixa-lista-sobre-mim {
+        width: 100%;
+        margin-left: auto;
+        margin-top: 60px;
+    }
+    .caixa-mae-rede-social {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-right: 0px;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .conteudo {
+        width: 600PX;
+        height: 260px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -300PX;
+        margin-top: -130px;
+        text-align: center;
+        padding: 30px;
+    }
+    .conteudo h1{
+        word-wrap: break-word;
+    }
+
+    .caixa-item-rede-social {
+        padding: 20px;
+        text-align: center;
+        background-color: #770d77;
+        width: 100%;
+        height: 180px;
+        margin-right: 0px;
+        margin: 0;
+        padding: 0;
+        padding-top: 30px;
+    }
+    
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .conteudo {
+        width: 100%;
+        height: 240px;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+        padding: 0;
+    }
+    .conteudo h1{
+        word-wrap: break-word;
+    }
+}
